@@ -1,0 +1,27 @@
+#container{
+	height: 500px;
+	width: 500px;
+	background-color: pink;
+	border:solid 3px black;
+	display: flex;
+	
+}
+#child1{
+	height: 200px;
+	width: 100px;
+	background-color: red;
+	flex-grow: 10;
+}
+#child2{
+    height: 200px;
+	width: 100px;
+	background-color: cyan; 
+    flex-grow: 10;
+    }
+#child3{
+    height: 200px;
+	width: 100px;
+	background-color: skyblue; 
+	flex-grow: 10;
+}
+
